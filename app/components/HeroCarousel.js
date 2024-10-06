@@ -11,8 +11,8 @@ const HeroCarousel = () => {
       title: "Find Your Perfect Plot of Land",
       description: "Discover premium land opportunities vetted by experts",
       cta: "Start Searching",
-      bgImage: "/images/hero1.jpg",
-      complementaryImage: "/images/hero2.jpg"
+      bgImage: "/images/hero6.jpeg",
+      complementaryImage: "/images/hero5.jpeg"
     },
     {
       title: "Invest in Your Future",
