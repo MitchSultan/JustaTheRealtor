@@ -7,22 +7,22 @@ const Testimonials = () => {
 
     const testimonials = [
       {
-        name: "John Smith",
+        name: "John Rotich",
         role: "Real Estate Investor",
-        content: "Found my dream investment property through this platform. The detailed land reports saved me hours of research.",
+        content: "Working with Justa was an absolute game-changer in our home-buying journey. Her deep knowledge of the local market, combined with her uncanny ability to understand exactly what we were looking for, made the entire process seamless. What truly sets Justa apart is her dedication to building genuine relationships with her clients. She made the entire process feel like a partnership, rather than just another transaction. I'm thrilled with my new home and the experience I had working with Justa.",
         rating: 5
       },
       {
-        name: "Sarah Johnson",
+        name: "Sarah Wambui",
         role: "First-time Land Buyer",
-        content: "The educational resources helped me understand the buying process. I felt confident making my first land purchase.",
+        content: "In the competitive world of real estate, having Justa by your side is like having a secret weapon. Her negotiation skills are unparalleled, but what really impressed me was her commitment to ensuring I felt supported throughout the entire selling process. She took the time to understand my needs, provided honest feedback, and always had my best interests at heart. I couldn't be happier with the outcome and the experience I had working with Justa.",
         rating: 5
       },
       {
-        name: "Mike Thompson",
+        name: "Mike Too",
         role: "Property Developer",
-        content: "This site's market analysis tools are invaluable. I've closed multiple deals thanks to their insights.",
-        rating: 4
+        content: "As a first-time homebuyer, the process was overwhelming. Enter Justa - a true professional who transformed our experience from daunting to delightful. Her attention to detail, proactive communication, and genuine care for her clients are unmatched. Justa went above and beyond, not just in finding us the perfect home, but in educating us about the entire process. We couldn't be happier with our decision to work with Justa. We've already recommended her to our friends and family, and will continue to do so.",
+        rating: 5
       }
     ];
     return (

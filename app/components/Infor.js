@@ -45,7 +45,7 @@ const BlogSection = () => {
     return (
         <section className="py-16 bg-gray-100">
             <div className="container mx-auto px-4">
-                <h2 className="text-3xl font-bold mb-8 text-center text-black">Latest Blog Posts</h2>
+                <h2 className="text-3xl font-bold mb-8 text-center text-black">Latest Real Estate News</h2>
                 <div className="relative">
                     <div className={`grid ${isMobile ? 'grid-cols-1' : 'grid-cols-3'} gap-8`}>
                         {isMobile ? (
@@ -55,6 +55,7 @@ const BlogSection = () => {
                                     <h3 className="text-xl font-semibold mb-2 text-black">{blogPosts[currentIndex].heading}</h3>
                                     <p className="text-gray-600 mb-2">{blogPosts[currentIndex].date}</p>
                                     <p className="text-gray-800">{blogPosts[currentIndex].snippet}</p>
+                                <Link href={`/blog/${blogPosts[currentIndex].id}`} className="text-blue-500 hover:text-blue-700">Read More</Link>
                                 </div>
                             </div>
                         ) : (

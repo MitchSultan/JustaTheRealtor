@@ -15,15 +15,13 @@ const ContactPage = () => {
     <div className="grid grid-cols-1 gap-x-16 gap-y-8 lg:grid-cols-5">
       <div className="lg:col-span-2 lg:py-12">
         <p className="max-w-xl text-black text-lg">
-          At the same time, the fact that we are wholly owned and totally independent from
-          manufacturer and other group control gives you confidence that we will only recommend what
-          is right for you.
+       I am a real estate agent based in Nairobi, Kenya. I specialize in helping people find and sell properties. 
         </p>
 
         <div className="mt-8">
-          <a href="#" className="text-2xl font-bold text-green-600"> 0151 475 4450 </a>
+          <a href="#" className="text-2xl font-bold text-green-600"> +254-717-593-934  </a>
 
-          <address className="mt-2 text-black not-italic">282 Kevin Brook, Imogeneborough, CA 58517</address>
+          <address className="mt-2 text-black not-italic">P.O. Box 234, Nairobi, Kenya</address>
         </div>
       </div>
 

@@ -15,7 +15,7 @@ export default function Home() {
       <HeroCarousel />
       <NewProperty />
       <Testimonials />
-      <FeaturedPosts/>
+      {/* <FeaturedPosts/> */}
       <Infor />
       <Cta />
       <Footer />

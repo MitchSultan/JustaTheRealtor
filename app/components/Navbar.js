@@ -77,6 +77,12 @@ export default function Navbar() {
             About
           </Link>
           <Link 
+            href="/news" 
+            className="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+          >
+            News
+          </Link>
+          <Link 
             href="/contact" 
             className="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
           >

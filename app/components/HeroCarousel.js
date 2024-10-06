@@ -11,29 +11,29 @@ const HeroCarousel = () => {
       title: "Find Your Perfect Plot of Land",
       description: "Discover premium land opportunities vetted by experts",
       cta: "Start Searching",
-      bgImage: "/images/Hero1.jpg",
-      complementaryImage: "/images/Hero2.jpg"
+      bgImage: "/images/hero1.jpg",
+      complementaryImage: "/images/hero2.jpg"
     },
     {
       title: "Invest in Your Future",
       description: "Secure prime real estate for long-term growth",
       cta: "Explore Investments",
-      bgImage: "/images/Hero3.jpg",
-      complementaryImage: "/images/Hero2.jpg"
+      bgImage: "/images/hero3.jpeg",
+      complementaryImage: "/images/hero4.jpeg"
     },
     {
       title: "Build Your Dream Home",
       description: "Find the ideal location for your custom-built house",
       cta: "View Locations",
-      bgImage: "/images/hero-bg-3.jpg",
-      complementaryImage: "/images/dream-home.jpg"
+      bgImage: "/images/hero5.jpeg",
+      complementaryImage: "/images/hero6.jpeg"
     },
     {
       title: "Expert Guidance Every Step",
       description: "Our team of professionals is here to assist you",
       cta: "Meet Our Experts",
-      bgImage: "/images/hero-bg-4.jpg",
-      complementaryImage: "/images/expert-team.jpg"
+      bgImage: "/images/hero7.jpeg",
+      complementaryImage: "/images/hero8.jpeg"
     }
   ];
 
