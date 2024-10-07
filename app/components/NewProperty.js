@@ -9,7 +9,7 @@ const NewProperty = () => {
 			title: "Adelaide Creek – Eldoret",
 			location: "Eldoret, Uasin Gishu County",
 			price: 2500000,
-			size: "1/8 Acre",
+			size: "1/4 Acre",
 			description: "Prime plots in a serene environment, perfect for residential development.",
 			image: "https://sic.co.ke/wp-content/uploads/classified-listing/2024/10/adelaidecreekeldoretbySIC.jpg"
 		},
