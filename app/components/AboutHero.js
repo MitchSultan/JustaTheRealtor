@@ -27,8 +27,8 @@ export default function AboutHero
          About JustaTheRealtor who is a Land Specialist & Property Management Expert</h2>
 
           <p className="mt-4 text-gray-600">
-          With over 15 years of dedicated experience in real estate, I've built my career on a foundation of expertise in land sales and property management. My journey in real estate has been driven by a passion for helping clients find the perfect land investments while ensuring their properties reach their full potential.
-My Appro</p>
+            With over 15 years of dedicated experience in real estate, I've built my career on a foundation of expertise in land sales and property management. My journey in real estate has been driven by a passion for helping clients find the perfect land investments while ensuring their properties reach their full potential.
+  My Approach</p>
 
           <a
             href="#"

@@ -17,12 +17,15 @@ mongoose.connect(process.env.MONGODB_URI, {
 })
 .then(() => console.log('Connected to MongoDB'))
 .catch((err) => {
-  console.error('Error connecting to MongoDB:');
-  console.error('Error message:', err.message);
-  console.error('Error details:', err);
+  console.error('Error connecting to MongoDB:', err.message);
+  process.exit(1);
 });
 
 // Start the server
-app.listen(PORT, () => {
+app.listen(PORT, (err) => {
+  if (err) {
+    console.error('Error starting server:', err.message);
+    process.exit(1);
+  }
   console.log(`Server is running on port ${PORT}`);
 });

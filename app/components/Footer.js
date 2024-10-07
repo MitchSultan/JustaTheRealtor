@@ -18,7 +18,7 @@ const Footer = () => {
         </div>
 
         <p className="mx-auto mt-6 max-w-md text-center leading-relaxed text-gray-500 lg:text-left">
-         Get the best deals todsy with Justa. Just a phone call away.
+         Get the best deals today with Justa. Just a phone call away.
         </p>
       </div>
 

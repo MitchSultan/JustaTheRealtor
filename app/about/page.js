@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from '../components/Navbar';
 import AboutHero from '../components/AboutHero';
 import AboutPage from '../components/AboutPage';
+// import AboutJusta from '../components/AboutJusta';
 import Footer from '../components/Footer';
 
 const Page = () => {
@@ -10,6 +11,7 @@ const Page = () => {
             <Navbar />
             <AboutHero/>
             <AboutPage />
+            {/* <AboutJusta /> */}
             <Footer />
         </div>
     );

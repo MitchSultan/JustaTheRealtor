@@ -49,8 +49,8 @@ const NewProperty = () => {
 										<span className='text-black'>{listing.location}</span>
 									</div>
 									<div className="flex items-center mb-2">
-										<DollarSign className="text-green-600 mr-2" size={18} />
-										<span className="text-lg font-bold text-black">{listing.price.toLocaleString()}</span>
+										{/* <DollarSign className="text-green-600 mr-2" size={18} /> */}
+										<span className="text-lg font-bold text-black">Kshs{listing.price.toLocaleString()}</span>
 									</div>
 									<p className="text-sm text-gray-600 mb-4">{listing.size} | {listing.description}</p>
 									<a href="/contact" className="block w-full">
