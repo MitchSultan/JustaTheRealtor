@@ -1,5 +1,5 @@
 const express = require('express');
-const mongoose = require('mongoose');
+const { sql } = require('@vercel/postgres');
 require('dotenv').config();
 
 const app = express();
@@ -10,22 +10,27 @@ app.use(express.json());
 
 // Routes (you'll add these later)
 
-// MongoDB connection
-mongoose.connect(process.env.MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-})
-.then(() => console.log('Connected to MongoDB'))
-.catch((err) => {
-  console.error('Error connecting to MongoDB:', err.message);
-  process.exit(1);
+// Example route using Vercel Postgres
+app.get('/example', async (req, res) => {
+  try {
+    const result = await sql`SELECT NOW()`;
+    res.json({ currentTime: result[0].now });
+  } catch (error) {
+    console.error('Database error:', error);
+    res.status(500).json({ error: 'Internal Server Error' });
+  }
 });
 
-// Start the server
-app.listen(PORT, (err) => {
-  if (err) {
-    console.error('Error starting server:', err.message);
-    process.exit(1);
-  }
-  console.log(`Server is running on port ${PORT}`);
-});
+// Start the server (for local development)
+if (process.env.NODE_ENV !== 'production') {
+  app.listen(PORT, (err) => {
+    if (err) {
+      console.error('Error starting server:', err.message);
+      process.exit(1);
+    }
+    console.log(`Server is running on port ${PORT}`);
+  });
+}
+
+// For Vercel deployment
+module.exports = app;

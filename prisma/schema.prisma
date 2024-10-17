@@ -1,0 +1,14 @@
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+DATABASE_URL="postgres://default:UpQ7g1sTIJGE@ep-still-lab-a4qu3jpt-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require"
+DIRECT_URL="postgres://default:UpQ7g1sTIJGE@ep-still-lab-a4qu3jpt-pooler.us-east-1.aws.neon.tech/verceldb?sslmode=require"
+model User {
+  id       String @id @default(cuid())
+  name     String
+  email    String @unique
+  password String
+  role     String @default("user")
+}
