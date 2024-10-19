@@ -11,8 +11,8 @@ export default function AboutHero
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
             alt=""
-            src="https://scontent-mba1-1.xx.fbcdn.net/v/t39.30808-6/347408385_6383220238392333_7967122166821605166_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a5f93a&_nc_eui2=AeEperqZa7BloB7PykcYbGibQTzk75vFeLBBPOTvm8V4sH_KEmJLjv7vxg0tzynXyR995DJemRUoeI_ymZhhvHmX&_nc_ohc=54cVIAtNEu8Q7kNvgHTJ0OL&_nc_ht=scontent-mba1-1.xx&_nc_gid=ASO6nWqNO6CJ1GsVIaGDjfo&oh=00_AYAnE0AkHeqi2eKc9qoPg-xp0uwja8jSEbwXA4G0psuB9w&oe=670710F6"
-            className="absolute inset-0 px-10 h-full w-full object-cover"
+            src="/images/About-image.png"
+            className="absolute z-10 inset-0 px-10 h-full w-full object-contain"
           />
         </div>
       </div>
