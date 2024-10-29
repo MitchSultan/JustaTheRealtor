@@ -26,7 +26,7 @@
 //     // Add more blog posts as needed
 //   ];
 
-export const blogPosts = [
+export const blogDatas = [
   {
     id: 1,
       title: "The Future of Real Estate Investment",
@@ -37,7 +37,7 @@ export const blogPosts = [
       image: "https://images.unsplash.com/photo-1560518883-ce09059eeffa?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8cmVhbCUyMGVzdGF0ZXxlbnwwfHwwfHx8MA%3D%3D&auto=format&fit=crop&w=500&q=60",
   },
   { id: 1,
-    title: "The Future of Real Estate Investment",
+    title: "Top 5 Emerging Neighborhoods in Nairobi",
      excerpt: "Explore emerging trends in real estate investment and how they might shape the market in the coming years.",
     
     content: "Full blog post content here...",

@@ -41,12 +41,20 @@ const Footer = () => {
                 About
               </Link>
               </li>
-
-        <li> <Link 
-                href="/news" 
+       <li>
+        <Link 
+                href="/invest" 
                 className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
-                News
+                Invest
+              </Link>
+              </li>
+
+        <li> <Link 
+                href="/blog" 
+                className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              >
+                Blog
               </Link>
         </li>
 
@@ -64,6 +72,15 @@ const Footer = () => {
 
     <p className="mt-12 text-center text-sm text-gray-500 lg:text-right">
       Copyright &copy; {currentYear} . All rights reserved. JustaTheRealtor
+      made by{' '}
+      <a
+        href="https://kenyanbuzz.info"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-teal-600 hover:underline"
+      >
+        Mitch
+      </a>
     </p>
   </div>
 </footer>

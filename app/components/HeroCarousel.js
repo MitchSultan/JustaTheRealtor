@@ -59,10 +59,10 @@ const HeroCarousel = () => {
             backgroundPosition: 'center'
           }}
         >
-          <div className="absolute inset-0 bg-black bg-opacity-50" />
+          <div className="absolute inset-0 bg-black bg-opacity-0" />
           <div className="container mx-auto h-full flex items-center justify-between px-4">
             <div className="text-white max-w-lg">
-              <h1 className="text-4xl md:text-6xl font-bold mb-4">{slide.title}</h1>
+              <h1 className="text-4xl text-white md:text-6xl font-bold mb-4">{slide.title}</h1>
               <p className="text-xl mb-8">{slide.description}</p>
               <button className="bg-green-600 text-white px-8 py-3 rounded-md text-lg font-semibold hover:bg-green-700 transition-colors">
                 {slide.cta}

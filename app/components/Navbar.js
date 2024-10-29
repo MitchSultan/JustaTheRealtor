@@ -34,10 +34,16 @@ export default function Navbar() {
                 About
               </Link>
               <Link 
-                href="/news" 
+                href="/invest" 
                 className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
               >
-                News
+                Invest
+              </Link>
+              <Link
+                href="/blog" 
+                className="text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-sm font-medium transition-colors duration-200"
+              >
+                Blog
               </Link>
               <Link 
                 href="/contact" 
@@ -77,10 +83,16 @@ export default function Navbar() {
             About
           </Link>
           <Link 
-            href="/news" 
+            href="/invest" 
             className="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
           >
-            News
+            Invest
+          </Link>
+          <Link 
+            href="/blog" 
+            className="block text-gray-700 hover:bg-gray-100 px-3 py-2 rounded-md text-base font-medium transition-colors duration-200"
+          >
+            Blog
           </Link>
           <Link 
             href="/contact" 
