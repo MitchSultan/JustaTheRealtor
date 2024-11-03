@@ -11,7 +11,7 @@ export default function AboutHero
         <div className="relative h-64 sm:h-80 lg:h-full">
           <img
             alt=""
-            src="/images/About-image.png"
+            src="/images/About-image.jpg"
             className="absolute z-10 inset-0 px-10 h-full w-full object-contain"
           />
         </div>
